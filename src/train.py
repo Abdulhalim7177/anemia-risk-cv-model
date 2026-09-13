@@ -92,7 +92,7 @@ def build_model():
 if __name__ == '__main__':
     # Fix random seed for reproducibility
     tf.random.set_seed(42)
-    np.random.set_seed(42)
+    np.random.seed(42)
 
     X, y = load_eyes_defy_anemia('../data/raw/dataset_anemia')
     
