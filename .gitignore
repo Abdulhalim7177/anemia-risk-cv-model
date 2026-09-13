@@ -1,0 +1,11 @@
+__pycache__/
+*.pyc
+venv/
+.env
+data/raw/*
+!data/raw/.gitkeep
+data/processed/*
+!data/processed/.gitkeep
+model_output/*.h5
+model_output/*.tflite
+!model_output/.gitkeep
